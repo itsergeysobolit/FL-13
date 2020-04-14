@@ -1,0 +1,218 @@
+body, body * {
+  margin: 0;
+  padding: 0; }
+
+.header-wrap, .section, .section_banner, .footer-wrap {
+  margin: 0 auto; }
+
+.footer_logo p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+  font-size: 24px; }
+  .footer_logo p span {
+    font-size: 12px; }
+
+body {
+  position: relative;
+  max-width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #222c3d;
+  background-color: #ffffff; }
+  body * {
+    box-sizing: border-box; }
+
+.header {
+  background-image: url("../img/m-h-day.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom-right-radius: 50%; }
+  .header-wrap {
+    max-width: 80%;
+    padding: 5% 0; }
+    .header-wrap button {
+      margin-top: 5%; }
+    .header-wrap .login {
+      color: #ffffff;
+      font-size: 16px;
+      cursor: pointer;
+      margin-left: 150px; }
+      .header-wrap .login:hover {
+        text-decoration: none; }
+  .header .landing-logo {
+    display: flex;
+    align-items: center; }
+    .header .landing-logo p {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 10px;
+      font-size: 24px; }
+      .header .landing-logo p span {
+        font-size: 12px; }
+  .header_heading {
+    font-family: "Hind", sans-serif;
+    position: relative;
+    max-width: 49%;
+    margin-top: 5%;
+    font-size: 60px;
+    font-weight: bold;
+    z-index: 1; }
+    .header_heading::after {
+      content: "";
+      display: block;
+      position: absolute;
+      background-color: #1664e2;
+      width: 255px;
+      height: 40px;
+      bottom: 14px;
+      z-index: -1;
+      bottom: 30px; }
+  .header_text {
+    max-width: 50%;
+    margin-top: 5%;
+    font-size: 16px;
+    line-height: 1.5; }
+  .header_button {
+    background-color: #338c1d;
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+    padding: 15px 50px;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer; }
+    .header_button:hover {
+      background-color: #42b626;
+      transition: 0.3s; }
+    .header_button:active {
+      background-color: #246214; }
+
+.section {
+  padding: 0 10%;
+  padding-top: 5%; }
+  .section_text {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1; }
+    .section_text::after {
+      content: "";
+      display: block;
+      position: absolute;
+      background-color: #1664e2;
+      width: 255px;
+      height: 40px;
+      bottom: 14px;
+      z-index: -1;
+      width: 175px;
+      height: 40px;
+      bottom: 9px;
+      z-index: -1;
+      right: 423px; }
+  .section_card_wrap {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%; }
+  .section_card {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    background-color: #201e21;
+    color: #ffffff;
+    border-radius: 5px;
+    margin: 10px 0; }
+    .section_card_img {
+      width: 100%;
+      object-fit: cover;
+      border-radius: 5px; }
+    .section_card_right_container {
+      padding: 0 100px; }
+    .section_card_heading {
+      text-align: center;
+      font-size: 24px;
+      position: relative;
+      z-index: 1; }
+    .section_card_text {
+      text-align: justify;
+      margin: 15px 0;
+      font-size: 16px;
+      line-height: 1.5; }
+  .section_banner {
+    position: relative;
+    display: flex;
+    margin-top: 5%;
+    max-width: 60%;
+    justify-content: space-around;
+    background: linear-gradient(45deg, #338c1d, #1664e2);
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    top: 50px; }
+    .section_banner_text_wrap {
+      display: flex;
+      flex-direction: column; }
+    .section_banner_heading {
+      font-family: "Hind", sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      position: relative;
+      z-index: 1; }
+      .section_banner_heading::after {
+        content: "";
+        display: block;
+        position: absolute;
+        background-color: #1664e2;
+        width: 255px;
+        height: 40px;
+        bottom: 14px;
+        z-index: -1;
+        width: 50px;
+        height: 40px;
+        bottom: 10px;
+        right: 179px; }
+    .section_banner_text {
+      font-size: 16px;
+      color: #ffffff; }
+    .section_banner_button {
+      background-color: #338c1d;
+      color: #ffffff;
+      border: none;
+      font-weight: bold;
+      border-radius: 2px;
+      padding: 15px 50px;
+      text-align: center;
+      font-size: 16px;
+      outline: none;
+      cursor: pointer; }
+      .section_banner_button:hover {
+        background-color: #42b626;
+        transition: 0.3s; }
+      .section_banner_button:active {
+        background-color: #246214; }
+  .section_link {
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer; }
+    .section_link:hover {
+      text-decoration: none; }
+
+.footer {
+  background-color: #201e21;
+  color: #ffffff; }
+  .footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 10% 10% 40px 10%;
+    align-items: center; }
+  .footer_logo {
+    display: flex;
+    align-items: center; }
+  .footer_text {
+    max-width: 25%; }
